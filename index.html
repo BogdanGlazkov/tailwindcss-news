@@ -6,5 +6,30 @@
     <link rel="stylesheet" href="/public/styles.css" />
     <title>News TailwindCSS</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="px-2 border-b">
+      <a class="uppercase font-bold text-purple-800" href="/">News</a>
+      <nav>
+        <ul class="text-gray-500 font-semibold">
+          <li><a class="inline-block py-3 px-2" href="#">Home</a></li>
+          <li><a class="inline-block py-3 px-2" href="#">About</a></li>
+          <li><a class="inline-block py-3 px-2" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Breadcrumbs -->
+      <div>
+        <div class="py-4 overflow-y-auto whitespace-nowrap">
+          <a class="text-gray-600" href="#">Home</a>
+          <span class="mx-2 text-gray-500">&gt;</span>
+          <a class="text-gray-600" href="#">News</a>
+          <span class="mx-2 text-gray-500">&gt;</span>
+          <a class="text-gray-600" href="#">Tech</a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
